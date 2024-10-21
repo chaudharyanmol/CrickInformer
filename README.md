@@ -43,25 +43,25 @@ import the project to an ide like eclipse ide . <br>
 spring.datasource.url=jdbc:mysql://localhost:3306/databse-name <br>spring.datasource.username=your-username <br> 
 spring.datasource.password=your-password <br>
 
-4. **Run the spring project** - Run the Spring Boot project by right-clicking on it and selecting Run as Java Application. .
+4. **Run the spring project** - Run the Spring Boot project by right-clicking on it and selecting Run as Java Application. <br>
 
 ![image](https://github.com/user-attachments/assets/51bb3856-eda7-42ef-976b-d51c45cd335a)
 
- project is running on port numer 8080 .
-you can test the API using postman as - 
+ project is running on port numer 8080 .And
+you can test the API using postman as - <br>
 ![image](https://github.com/user-attachments/assets/1fc73f69-a5b5-4915-a26d-eb056f519717)
 
-**API Endpoints** - 
+**API Endpoints** - <br>
 ![image](https://github.com/user-attachments/assets/44390257-f794-4bc5-b816-b9991b83bd9b)
 
 
 
 
 
-5 **Frontend Setup**
+5 **Frontend Setup** <br>
 Navigate to the Crickinformerfrontend folder. <br>
 Open the project in an IDE like VSCode and install the dependencies. <br>
-**Project Structure** :
+**Project Structure** : <br>
 ![image](https://github.com/user-attachments/assets/f85977c7-6db4-4479-9449-20e29c7ca2a5)
 
 
@@ -69,7 +69,7 @@ Open the project in an IDE like VSCode and install the dependencies. <br>
 bash - ng serve  <br>
 
 Access the Application at - <br>
-Frontend: http://localhost:4200: <
+Frontend: http://localhost:4200: 
 http://localhost:8080/ <br>
 ![image](https://github.com/user-attachments/assets/8d3d865b-d18b-41ac-a850-781ce05df7ba)
 
