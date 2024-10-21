@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricInformer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-gray-800">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-white">
+                CricInformer
+            </div>
+
+            <nav class="space-x-4">
+                <a [routerLink]="'/home'"  class="text-gray-300 hover:text-blue-400">Home</a>
+                <a  [routerLink]="'/live'"  class="text-gray-300 hover:text-blue-400">Live Match</a>
+                <a [routerLink]="'/history'"   class="text-gray-300 hover:text-blue-400">History</a>
+                <a [routerLink]="'/point-table'"  class="text-gray-300 hover:text-blue-400">Point Table</a>
+            </nav>
+
+            <div></div>
+            
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 mt-8">
+        <!-- Main content goes here -->
+    </main>
+
+</body>
+</html>
+
+
+<div class="px-28 py-8">
+    <router-outlet></router-outlet>
+</div>
+ 
+
